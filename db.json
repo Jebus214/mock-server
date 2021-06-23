@@ -1,6 +1,6 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" ,comments": [
+    { "id": 1, "title": "Post 1" ,"comments": [
     { "id": 1, "body": "some comment 1", "postId": 1 },
     { "id": 2, "body": "some comment 2", "postId": 1 },
     { "id": 3, "body": "some comment 3", "postId": 1 }]},
