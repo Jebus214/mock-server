@@ -1,24 +1,105 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" ,"comments": [
-    { "id": 1, "body": "some comment 1", "postId": 1 },
-    { "id": 2, "body": "some comment 2", "postId": 1 },
-    { "id": 3, "body": "some comment 3", "postId": 1 }]},
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 4, "title": "Post 4" },
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment 1", "postId": 1 },
-    { "id": 2, "body": "some comment 2", "postId": 1 },
-    { "id": 3, "body": "some comment 3", "postId": 1 },
-    { "id": 4, "body": "some comment 4", "postId": 2 },
-    { "id": 5, "body": "some comment 5", "postId": 3 },
-    { "id": 6, "body": "some comment 6", "postId": 3 },
-    { "id": 7, "body": "some comment 7", "postId": 4 },
-
-  ],
-  "user": {
-    "name": "Jhon Doe"
-  }
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "Jhon",
+            "apellidos": "Doe Doe"
+        },
+        {
+            "id": 2,
+            "nombre": "Camila",
+            "apellidos": "Hernandez Lopez"
+        },
+        {
+            "id": 3,
+            "nombre": "Juan",
+            "apellidos": "Rodriguez Perez"
+        },
+        {
+            "id": 4,
+            "nombre": "Alberto",
+            "apellidos": "Mendez Lopez"
+        },
+        {
+            "id": 5,
+            "nombre": "Roberto",
+            "apellidos": "Garcia Hernandez"
+        },
+        {
+            "id": 6,
+            "nombre": "Lisa",
+            "apellidos": "Valdez Hernandez"
+        }
+    ],
+    "quejas": [
+        {
+            "id": 1,
+            "body": "Robo de identidad",
+            "usuarioId": 1,
+            "fecha": "02-05-2020"
+        },
+        {
+            "id": 2,
+            "body": "Quejas relacionadas con Inversiones",
+            "usuarioId": 1,
+            "fecha": "02-05-2020"
+        },
+        {
+            "id": 3,
+            "body": "Quejas relacionadas con automóviles",
+            "usuarioId": 1,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 4,
+            "body": "Recibos con un valor de consumo excesivo",
+            "usuarioId": 2,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 5,
+            "body": "El servicio se corto sin avisar previamente",
+            "usuarioId": 2,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 6,
+            "body": "Estafas de cheques fraudulentos",
+            "usuarioId": 3,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 7,
+            "body": "Estafas con Inversiones",
+            "usuarioId": 4,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 8,
+            "body": "Quejas relacionadas con automóviles",
+            "usuarioId": 4,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 9,
+            "body": "Recibos con un valor de consumo excesivo",
+            "usuarioId": 5,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 10,
+            "body": "El servicio se corto sin avisar previamente",
+            "usuarioId": 6,
+            "fecha": "03-05-2020"
+        },
+        {
+            "id": 11,
+            "body": "Estafas de cheques fraudulentos",
+            "usuarioId": 6,
+            "fecha": "03-05-2020"
+        }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
 }
